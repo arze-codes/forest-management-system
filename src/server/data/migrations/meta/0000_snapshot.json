@@ -1,37 +1,13 @@
 {
-	"id": "5cd7d97b-546d-40a8-9982-686596dfe578",
+	"id": "57a83e23-5fa7-40f1-9f71-ac114395e29b",
 	"prevId": "00000000-0000-0000-0000-000000000000",
 	"version": "7",
 	"dialect": "postgresql",
-	"tables": {
-		"public.nursery_users": {
-			"name": "nursery_users",
-			"schema": "",
-			"columns": {
-				"id": {
-					"name": "id",
-					"type": "serial",
-					"primaryKey": true,
-					"notNull": true
-				},
-				"age": {
-					"name": "age",
-					"type": "integer",
-					"primaryKey": false,
-					"notNull": false
-				}
-			},
-			"indexes": {},
-			"foreignKeys": {},
-			"compositePrimaryKeys": {},
-			"uniqueConstraints": {},
-			"policies": {},
-			"checkConstraints": {},
-			"isRLSEnabled": false
-		}
-	},
+	"tables": {},
 	"enums": {},
-	"schemas": {},
+	"schemas": {
+		"forest": "forest"
+	},
 	"sequences": {},
 	"roles": {},
 	"policies": {},
